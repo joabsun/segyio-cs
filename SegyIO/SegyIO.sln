@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.32002.185
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SegyIO", "SegyIO.csproj", "{03A7404B-DC63-4C40-B031-6EF396D78DAF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TestSegyIO", "..\TestSegyIO\TestSegyIO.csproj", "{F596FEF9-B7DC-440C-BF4F-E45D1D4565AB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{03A7404B-DC63-4C40-B031-6EF396D78DAF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03A7404B-DC63-4C40-B031-6EF396D78DAF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03A7404B-DC63-4C40-B031-6EF396D78DAF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{03A7404B-DC63-4C40-B031-6EF396D78DAF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F596FEF9-B7DC-440C-BF4F-E45D1D4565AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F596FEF9-B7DC-440C-BF4F-E45D1D4565AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F596FEF9-B7DC-440C-BF4F-E45D1D4565AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F596FEF9-B7DC-440C-BF4F-E45D1D4565AB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {EEC9FFC1-26F8-48C2-83D4-9D711C1B89B1}
+	EndGlobalSection
+EndGlobal
