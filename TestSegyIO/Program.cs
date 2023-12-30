@@ -1,1 +1,3 @@
+using TestSegyIO;
 
+TestReader.ReadSegyFileInfo();
