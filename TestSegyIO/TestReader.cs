@@ -42,10 +42,9 @@ namespace TestSegyIO
         }
 
         /// <summary>
-        /// 读取segy文件中的卷头信息(包括文本和二进制卷头)
+        /// 读取segy文件中的文本卷头
         /// </summary>
         /// <param name="segyFile"></param>
-        /// <returns>列表的第一对象为文本卷头,第二个对象为二进制卷头,第三个对象为字节序</returns>
         public static string ReadTextHeader(string segyFile)
         {
             FileStream fs = new FileStream(segyFile, FileMode.Open, FileAccess.Read);
